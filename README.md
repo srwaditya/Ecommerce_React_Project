@@ -3,6 +3,9 @@
 The falsy values in JavaScript are 0, 0n, null, undefined, false, NaN, and the empty string "". They evaluate to false when coerced by JavaScript’s typing engine into a boolean value, but they are not necessarily equal to each other
 
 Comparisons of falsy values with ==
+
+
+
 console.log("The number 0")
 console.log(0==0) // true
 console.log(0==0n) // true
